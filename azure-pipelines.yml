@@ -31,7 +31,7 @@ steps:
 
 - task: CopyFiles@1
   inputs:
-    SourceFolder: bin
+    SourceFolder: SdkDemoVsix/bin
     Contents: |
       $(BuildConfiguration)/**/*.vsix
     TargetFolder: $(Build.ArtifactStagingDirectory)/vsix
