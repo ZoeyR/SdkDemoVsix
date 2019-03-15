@@ -11,12 +11,7 @@
     <OutputType>Library</OutputType>
     <AssemblyName>SdkDemoVsix</AssemblyName>
     <UseCodebase>true</UseCodebase>
-    <GeneratePkgDefFile>true</GeneratePkgDefFile>
-    <IncludeAssemblyInVSIXContainer>true</IncludeAssemblyInVSIXContainer>
     <IncludeDebugSymbolsInVSIXContainer>true</IncludeDebugSymbolsInVSIXContainer>
-    <IncludeDebugSymbolsInLocalVSIXDeployment>true</IncludeDebugSymbolsInLocalVSIXDeployment>
-    <CopyBuildOutputToOutputDirectory>true</CopyBuildOutputToOutputDirectory>
-    <CopyOutputSymbolsToOutputDirectory>false</CopyOutputSymbolsToOutputDirectory>
   </PropertyGroup>
 
   <ItemGroup>
@@ -46,7 +41,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.SDK" Version="15.9.3" />
+    <PackageReference Include="Microsoft.VisualStudio.SDK" Version="15.9.3"/>
     <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="15.9.3039" />
   </ItemGroup>
 
